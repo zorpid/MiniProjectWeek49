@@ -16,7 +16,8 @@
 
 public class Laptop : Asset
 {
-    public Laptop(string brand, string modelName, DateTime buyDate, double price) : base(brand, modelName, buyDate, price)
+    public Laptop(string brand, string modelName, DateTime buyDate, double price, string office)
+        : base(brand, modelName, buyDate, price, office)
     {
     }
 }

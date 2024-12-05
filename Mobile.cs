@@ -16,8 +16,8 @@
 
 public class Mobile : Asset
 {
-    public Mobile(string brand ,string modelName, DateTime purchaseDate, double price)
-        : base(brand, modelName, purchaseDate, price) { }
+    public Mobile(string brand ,string modelName, DateTime purchaseDate, double price, string office)
+        : base(brand, modelName, purchaseDate, price, office) { }
 }
 
 
